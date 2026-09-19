@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:18:52.659Z",
+  "generated_at": "2026-09-19T15:19:07.478Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -62,9 +62,9 @@
       "url": "https://www.deep-ml.com/problems/5",
       "path": "problems/0005-scalar-multiplication-of-a-matrix",
       "first_solved_at": "2026-09-19T15:18:50.474Z",
-      "last_pushed_at": "2026-09-19T15:18:50.474Z",
+      "last_pushed_at": "2026-09-19T15:19:05.354Z",
       "language": "python",
-      "lines": 7
+      "lines": 3
     }
   }
 }
