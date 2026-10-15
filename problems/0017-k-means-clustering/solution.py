@@ -13,11 +13,11 @@ def cal_group(point: tuple[float, ...], centroids: list[tuple[float, ...]]):
 
 def k_means_clustering(points: list[tuple[float, ...]], k: int, initial_centroids: list[tuple[float, ...]], max_iterations: int) -> list[tuple[float, ...]]:
 	# Your code here
-	num_centroids, cur_cent = len(initial_centroids), initial_centroids
+	cur_cent = initial_centroids
 	for _ in range(max_iterations):
 		groups = [tuple([0] * len(points[0])) \
-			for _ in range(num_centroids)]
-		num_list = [0 for _ in range(num_centroids)]
+			for _ in range(k)]
+		num_list = [0 for _ in range(k)]
 
 		for point in points:
 			group_id = cal_group(point, cur_cent)
